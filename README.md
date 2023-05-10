@@ -1,7 +1,7 @@
 # PY Module Finder
 
 ### CODE
-Copy/Paste the code below modifying the sixth line "filepath" by your script file path.</br>
+Copy/Paste the code below modifying the sixth line "filepath" by your script file path.</br></br>
 The code will parse your script file and write the require modules into a text file named requirements.txt.</br>
 
 ```
