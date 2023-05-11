@@ -1,7 +1,7 @@
 # PY Module Finder
 
-### CODE
-Copy/Paste the code below modifying the sixth line "filepath" by your script file path.</br></br>
+### USING THE CODE
+Copy/Paste the code below modifying the sixth line "filepath" by your script file path.</br>
 The code will parse your script file and write the require modules into a text file named requirements.txt.</br>
 
 ```
@@ -44,3 +44,8 @@ with open("requirements.txt","w") as file:
     for package in installed_packages_list:
         file.write(f"{package}\n")
 ```
+
+### INSTALL MODULES TO RUN PYTOHN SCRIPT
+```
+pip install -r requirements.txt
+```q
